@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+    background-image: url('Imagenes/pokemonPalabra.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:midnightblue;
+    background-size: 41%;
+    color: rgb(243, 192, 52);
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 32px;
+}
+.opaco{
+    width: 100%;
+    height: 100%;
+    background-color: #007a;
+
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+.pokedex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pokemonDerecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemonIzquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
